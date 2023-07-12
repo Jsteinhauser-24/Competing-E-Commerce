@@ -23,3 +23,4 @@ https://www.mit.edu/~amini/LICENSE.md
 ## QUESTIONS
 https://github.com/Jsteinhauser-24
 Any further questions Email me at Steinhauserjames3@gmail.com
+![image](https://github.com/Jsteinhauser-24/Competing-E-Commerce/assets/59461716/1bc7d21b-2813-4a59-8e34-d8c6eb93cd1b)
