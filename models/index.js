@@ -11,14 +11,13 @@ Product.belongsTo(Category, {
 // Categories have many Products
 Category.hasMany(Product, {
   foreignKey: "category_id",
-  onDelete: 'Cascade',
 });
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: {
     model: ProductTag,
-    foreignKey: "ProductTag_id",
+    foreignKey: "Product_id",
     unique: false
   }
 });
@@ -26,7 +25,7 @@ Product.belongsToMany(Tag, {
 Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
-    foreignKey: "ProductTag_id",
+    foreignKey: "tag_id",
     unique: false,
   }
 });
